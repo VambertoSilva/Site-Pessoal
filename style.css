@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Russo+One&family=Space+Mono&display=swap");
+
+body {
+  background-color: #100d17;
+}
+
+h1 {
+  color: white;
+  font-family: "Russo One", sans-serif;
+  font-size: 6rem;
+  font-weight: 1;
+  margin-top: 40vh;
+  text-align: center;
+}

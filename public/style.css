@@ -126,7 +126,7 @@ body::-webkit-scrollbar-thumb:hover {
   }
   .BtnConhecerMais {
     display: block;
-    margin: 1.8rem auto 0 auto;
+    margin: 2.2rem auto 0 auto;
     padding: 10px 18px 10px 18px;
     border-radius: 22px;
     border: none;
@@ -134,5 +134,61 @@ body::-webkit-scrollbar-thumb:hover {
     background-color: #3d1db7;
     font-family: "Archivo black", sans-serif;
     font-weight: 1;
+  }
+
+  /* View port 3 */
+
+  .ViewPort_3 {
+    width: 100vw;
+    height: 90vh;
+    background-color: #100d17;
+    color: white;
+    font-family: "Russo One", sans-serif;
+    font-weight: 0.5;
+    align-items: center;
+  }
+
+  .none {
+    color: #15102000;
+  }
+
+  .ViewPort_3Title {
+    text-align: center;
+    font-weight: 2;
+    font-size: 2.6rem;
+    margin-top: 40px;
+  }
+
+  .ProjetoContainerM {
+    display: flex;
+    justify-content: center;
+    gap: 6rem;
+    margin-top: 29.9vh;
+  }
+  .ProjetoContainer {
+    height: 14rem;
+    width: 20rem;
+    background-color: #1b1725;
+    display: flex;
+    flex-direction: column;
+    border-radius: 2.4rem;
+  }
+  .ContainerTitle {
+    margin-top: 1.8rem;
+    margin-left: 2rem;
+    font-weight: 1;
+    font-size: 1.6rem;
+  }
+  .ContainerSubtitle {
+    margin-top: 2rem;
+    margin-left: 2rem;
+    font-weight: 1;
+    font-size: 1.45;
+  }
+  .ViewPort_3Line {
+    height: 0.6px;
+    width: 84vw;
+    background-color: white;
+    margin: 4rem auto 0 auto;
   }
 }

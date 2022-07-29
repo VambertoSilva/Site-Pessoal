@@ -50,6 +50,9 @@ body::-webkit-scrollbar-thumb:hover {
     width: 99px;
     height: auto;
   }
+  .Menu {
+    display: none;
+  }
   .HeaderPortifolio {
     margin-left: auto;
     font-weight: 1;
@@ -243,5 +246,59 @@ body::-webkit-scrollbar-thumb:hover {
     font-family: "Russo One", sans-serif;
     font-size: 0.8rem;
     font-weight: 0.6;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .ViewPort_1 {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+  }
+  header {
+    display: flex;
+    width: 90vw;
+    position: absolute;
+    left: 5vw;
+    right: 5vw;
+    top: 2vh;
+  }
+  .HeaderPortifolio,
+  .HeaderSkils,
+  .HeaderSobre,
+  .HeaderContato {
+    display: none;
+  }
+  .Logo {
+    margin-right: auto;
+  }
+  .MainTitle {
+    color: white;
+    margin-top: 40vh;
+    font-size: 6rem;
+    font-family: "Russo One", sans-serif;
+    font-weight: 1;
+    text-align: center;
+  }
+  .MainSubTitle {
+    color: white;
+    margin-top: 0.4rem;
+    font-size: 2.9rem;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 1;
+    text-align: center;
+  }
+  .Front-End {
+    color: #5125ff;
+  }
+  .Pc {
+    height: auto;
+    width: 80vw;
+    margin: 4rem auto 0 auto;
+  }
+  .Eu {
+    height: auto;
+    width: 10vw;
   }
 }

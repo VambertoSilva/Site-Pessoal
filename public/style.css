@@ -348,4 +348,52 @@ body::-webkit-scrollbar-thumb:hover {
     font-weight: 1;
     font-size: 1.9rem;
   }
+
+  /* ViewPort 3 */
+
+  .ViewPort_3 {
+    width: 100vw;
+    height: 100vh;
+    background-color: #100d17;
+  }
+  .none {
+    color: #100d17;
+  }
+  .ViewPort_3Title {
+    color: white;
+    text-align: center;
+    font-size: 4rem;
+    font-family: "Russo One", sans-serif;
+    font-weight: 1;
+    margin-top: 6rem;
+  }
+
+  .ProjetoContainerM {
+    width: 80vw;
+    margin: 16rem auto 0 auto;
+  }
+  .ProjetoContainer {
+    background-color: #1b1725;
+    width: 80vw;
+    height: 14vh;
+    border-radius: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    margin-top: 4rem;
+  }
+  .ContainerTitle {
+    text-align: center;
+    color: white;
+    font-size: 2.4rem;
+    font-family: "Russo One", sans-serif;
+    margin-top: 4rem;
+  }
+  .ContainerSubtitle {
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    font-family: "Space Mono", monospace;
+    margin-top: 2rem;
+  }
 }

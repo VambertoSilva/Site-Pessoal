@@ -447,5 +447,6 @@ body::-webkit-scrollbar-thumb:hover {
     font-family: "Russo One", sans-serif;
     font-size: 1.5rem;
     font-weight: 0.6;
+    margin-left: 1rem;
   }
 }

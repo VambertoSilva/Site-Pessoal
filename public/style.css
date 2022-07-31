@@ -339,7 +339,7 @@ body::-webkit-scrollbar-thumb:hover {
   .BtnConhecerMais {
     display: block;
     margin: 0 auto 0 auto;
-    padding: 10px 56px 10px 56px;
+    padding: 20px 112px 20px 112px;
     border-radius: 22px;
     border: none;
     color: white;

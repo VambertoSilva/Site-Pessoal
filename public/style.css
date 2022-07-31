@@ -396,4 +396,57 @@ body::-webkit-scrollbar-thumb:hover {
     font-family: "Space Mono", monospace;
     margin-top: 2rem;
   }
+
+  /* ViewPort 4 */
+
+  .ViewPort_4 {
+    width: 100vw;
+    height: 100vh;
+    background-color: #100d17;
+    display: flex;
+    flex-direction: column;
+  }
+  .ViewPort_4_Title {
+    color: white;
+    font-family: "Russo One", sans-serif;
+    font-size: 4rem;
+    text-align: center;
+    margin-top: 4rem;
+  }
+  .ViewPort_4_Habilidades {
+    width: 40vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin: 16rem auto 0 auto;
+    gap: 2rem;
+  }
+  .ViewPort_4_Images {
+    height: auto;
+  }
+  .ViewPort_4_github {
+    width: auto;
+    height: auto;
+    margin: 4rem auto 0 auto;
+  }
+
+  /* rodape */
+  .ViewPort_4Line {
+    height: 0.6px;
+    width: 98vw;
+    background-color: white;
+    margin: 8rem auto 0 auto;
+    margin-bottom: 10px;
+  }
+  .rodape {
+    background-color: #100d17;
+    color: white;
+    width: 98vw;
+    margin: 0 auto 0 auto;
+  }
+  .RodaPe_Txt {
+    font-family: "Russo One", sans-serif;
+    font-size: 0.8rem;
+    font-weight: 0.6;
+  }
 }

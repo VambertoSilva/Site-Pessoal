@@ -57,6 +57,10 @@ body::-webkit-scrollbar-thumb:hover {
     margin-left: auto;
     font-weight: 1;
   }
+
+  header:hover {
+    cursor: pointer;
+  }
   .HeaderSobre {
     font-weight: 1;
   }

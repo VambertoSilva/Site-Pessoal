@@ -334,6 +334,7 @@ body::-webkit-scrollbar-thumb:hover {
     width: 80vw;
     margin: 4rem auto 0 auto;
     font-weight: 1;
+    font-size: 2.6rem;
   }
   .BtnConhecerMais {
     display: block;

@@ -234,21 +234,22 @@ body::-webkit-scrollbar-thumb:hover {
   }
   .ViewPort_4Line {
     height: 0.6px;
-    width: 98vw;
+    width: 100vw;
     background-color: white;
-    margin: 4rem auto 0 auto;
+    margin: 0 auto 0 auto;
     margin-bottom: 10px;
   }
   .rodape {
     background-color: #100d17;
     color: white;
-    width: 98vw;
+    width: 100vw;
     margin: 0 auto;
   }
   .RodaPe_Txt {
     font-family: "Russo One", sans-serif;
     font-size: 0.8rem;
-    font-weight: 0.6;
+    font-weight: 1;
+    margin-left: 0.5rem;
   }
 }
 

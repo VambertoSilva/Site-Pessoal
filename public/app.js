@@ -1,4 +1,5 @@
 const menu = document.querySelectorAll(".menu h4[href^='#']");
+const oi = "oi";
 
 menu.forEach(item => {
   item.addEventListener("click", () => {

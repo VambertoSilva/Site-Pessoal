@@ -32,6 +32,11 @@ body::-webkit-scrollbar-thumb:hover {
   height: 100vh;
   width: 100vw;
 }
+
+.Link{
+text-decoration: none;
+color:white;
+}
 @media screen and (min-width: 1000px) {
   header {
     width: 96%;
@@ -188,6 +193,8 @@ body::-webkit-scrollbar-thumb:hover {
     margin-left: 2rem;
     font-weight: 1;
     font-size: 1.6rem;
+
+    
   }
   .ContainerSubtitle {
     margin-top: 2rem;
@@ -211,7 +218,8 @@ body::-webkit-scrollbar-thumb:hover {
   }
   .ViewPort_4_github {
     width: auto;
-    height: 60%;
+    height: 10rem;
+    /* max-width: 30%; */
     text-align: center;
     margin-top: 1rem;
   }

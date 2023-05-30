@@ -1,0 +1,17 @@
+.title{
+    font-size: 1.8em;
+    color:rgb(60, 60, 60);
+    font-weight: 400;
+}
+
+.box{
+    background-color: white;
+    width: 60vw;
+    height: 12em;
+    border-radius: 1em;
+    padding: 2em 0 0 2em;
+}
+
+.charts{
+    margin-top: 1em;
+}

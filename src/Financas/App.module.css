@@ -24,11 +24,15 @@
     justify-content: space-between
 }
 
+
 .background{
     background-color: #EDF3FB; 
     padding-bottom: 4em;
-}
+    min-height: 100vh;
+    height: auto;
 
+
+}
 
 @media screen and (max-width: 1000px) {
 .Container{
@@ -60,6 +64,7 @@
 .background{
     background-color: #EDF3FB; 
     padding-bottom: 4em;
+
 }
 
 }

@@ -185,7 +185,7 @@ const PaginaPrincipal = () => {
         <h1 className="MainTitle">Vamberto Silva</h1>
         <h2 className="MainSubTitle">
           Desenvolvedor
-          <label className="Front-End">Front-End</label>
+          <label className="Front-End"> Front-End</label>
         </h2>
         <img className="Pc" src={Pc} />
       </div>

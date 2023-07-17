@@ -9,6 +9,7 @@ font-family: 'Space Mono', monospace; */
 }
 body {
   overflow-x: hidden;
+  width:100vw;
 }
 
 body::-webkit-scrollbar {
@@ -27,17 +28,25 @@ body::-webkit-scrollbar-thumb:hover {
   background-color: #5c5c5c;
 }
 
-.ViewPort_1 {
+/* .ViewPort_1 {
   background-color: #100d17;
   height: 100vh;
   width: 100vw;
-}
+} */
 
 .Link{
 text-decoration: none;
 color:white;
 }
+
 @media screen and (min-width: 1000px) {
+  .ViewPort_1{
+  /* background-color: #100d17; */
+  background: linear-gradient(45deg, #c2bad4, #b89dff, #c1b7de);
+  background-size:300% 300%;
+  animation: color 12s, ease-in-out infinite;
+  height:100vh
+}
   header {
     width: 96%;
     display: flex;
@@ -210,18 +219,18 @@ color:white;
   }
   .ViewPort_4 {
     width: 100vw;
-    height: 120vh;
+    height: fit-content;
     background-color: #100d17;
     display: flex;
     flex-direction: column;
     justify-items: center;
   }
   .ViewPort_4_github {
-    width: auto;
-    height: 10rem;
+    width: 8em;
+    height: 8rem;
     /* max-width: 30%; */
     text-align: center;
-    margin-top: 1rem;
+    margin: 0 auto 2em auto;
   }
   .ViewPort_4_Title {
     text-align: center;
@@ -256,21 +265,27 @@ color:white;
     color: white;
     width: 100vw;
     margin: 0 auto;
+
   }
   .RodaPe_Txt {
     font-family: "Russo One", sans-serif;
     font-size: 0.8rem;
     font-weight: 1;
     margin-left: 0.5rem;
+
+
   }
 }
 
-@media screen and (max-width: 1000px) {
-  .ViewPort_1 {
+@media screen and (max-width: 1000px){
+
+.ViewPort_1 {
     height: 100vh;
     width: 100vw;
     display: flex;
     flex-direction: column;
+  background-color: #100d17;
+
   }
   header {
     display: flex;
@@ -291,16 +306,19 @@ color:white;
   }
   .MainTitle {
     color: white;
-    margin-top: 35vh;
-    font-size: 6rem;
+    margin: 35vh auto 0 auto;
+    font-size: clamp(1.8em, 14vw +3em, 3em);
     font-family: "Russo One", sans-serif;
     font-weight: 1;
     text-align: center;
+    width:90vw;
+    display:block;
+
   }
   .MainSubTitle {
     color: white;
     margin-top: 0.4rem;
-    font-size: 2.9rem;
+    font-size: clamp(1.2em, 1.8em, 2em);    
     font-family: "Archivo Black", sans-serif;
     font-weight: 1;
     text-align: center;
@@ -318,7 +336,7 @@ color:white;
 
   .ViewPort_2 {
     width: 100vw;
-    height: 80vh;
+    height: fit-content;
     background-color: #151020;
     display: flex;
     flex-direction: column;
@@ -334,7 +352,7 @@ color:white;
   }
   .QuemEVambertoSilva {
     font-family: "Russo one", sans-serif;
-    font-size: 4rem;
+    font-size: 2.9em;
     color: white;
     text-align: center;
     font-weight: 1;
@@ -347,11 +365,11 @@ color:white;
     width: 80vw;
     margin: 4rem auto 0 auto;
     font-weight: 1;
-    font-size: 2.2rem;
+    font-size: 1.8rem;
   }
   .BtnConhecerMais {
     display: block;
-    margin: 0 auto 0 auto;
+    margin: 0 auto 4em auto;
     padding: 29px 126px 29px 126px;
     border-radius: 22px;
     border: none;
@@ -359,14 +377,14 @@ color:white;
     background-color: #3d1db7;
     font-family: "Archivo black", sans-serif;
     font-weight: 1;
-    font-size: 1.9rem;
+    font-size: 1.5rem;
   }
 
   /* ViewPort 3 */
 
   .ViewPort_3 {
     width: 100vw;
-    height: 100vh;
+    height: fit-content;
     background-color: #100d17;
   }
   .none {
@@ -375,39 +393,40 @@ color:white;
   .ViewPort_3Title {
     color: white;
     text-align: center;
-    font-size: 4rem;
+    font-size: 3.6rem;
     font-family: "Russo One", sans-serif;
     font-weight: 1;
     margin-top: 6rem;
   }
 
   .ProjetoContainerM {
-    width: 80vw;
+    width: 86vw;
     margin: 16rem auto 0 auto;
+    padding-bottom: 6em;
   }
   .ProjetoContainer {
     background-color: #1b1725;
-    width: 80vw;
-    height: 14vh;
-    border-radius: 80px;
+    width: 86vw;
+    height: fit-content;
+    border-radius: 40px;
     display: flex;
     flex-direction: column;
     justify-items: center;
-    margin-top: 4rem;
-  }
+    margin-top: 2rem;
+    }
   .ContainerTitle {
     text-align: center;
     color: white;
     font-size: 2.4rem;
     font-family: "Russo One", sans-serif;
-    margin-top: 4rem;
+    margin-top: 2rem;
   }
   .ContainerSubtitle {
     text-align: center;
     color: white;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-family: "Space Mono", monospace;
-    margin-top: 2rem;
+    margin: 1rem 1em  2em 1em;
   }
 
   /* ViewPort 4 */
@@ -416,7 +435,8 @@ color:white;
     width: 100vw;
     height: 90vh;
     background-color: #100d17;
-    display: flex;
+    /* display: flex; */
+    display:none;
     flex-direction: column;
   }
   .ViewPort_4_Title {
@@ -455,6 +475,7 @@ color:white;
     background-color: #100d17;
     color: white;
     width: 100vw;
+    display: none;
   }
   .RodaPe_Txt {
     font-family: "Russo One", sans-serif;
@@ -462,4 +483,7 @@ color:white;
     font-weight: 0.6;
     margin-left: 1rem;
   }
+
 }
+  
+

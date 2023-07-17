@@ -41,7 +41,7 @@ const Chart = (props) => {
     },
     {
       name: "Jul",
-      uv: props.Dados[5][props.Card],
+      uv: props.Dados[6][props.Card],
     },
     {
       name: "Ago",

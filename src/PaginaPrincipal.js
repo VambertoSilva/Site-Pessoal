@@ -133,6 +133,7 @@ import Ig from "./Imagens/Ig.svg";
 import Mail from "./Imagens/Mail.svg";
 import In from "./Imagens/In.svg";
 import Whats from "./Imagens/Whats.svg";
+import axios from "axios";
 
 const PaginaPrincipal = () => {
   const scroll = (event) => {
@@ -161,9 +162,30 @@ const PaginaPrincipal = () => {
 
   animateCards();
 
+  const pegarip = () => {
+    fetch("https://api.ipify.org?format=json")
+      .then((response) => response.json())
+      .then((data) => {
+        const ipAddress = data.ip;
+        console.log("Endereço IP: ", ipAddress);
+
+        // Enviar o endereço IP para o servidor usando o Axios
+        axios
+          .post("/api/data", { ipAddress }) // Substitua pela URL correta do seu servidor
+          .then((response) => {
+            console.log("Resposta do servidor:", response.data);
+          })
+          .catch((error) => {
+            console.error("Erro ao enviar dados:", error);
+          });
+      })
+      .catch((error) => {
+        console.error("Erro ao obter o endereço IP: ", error);
+      });
+  };
   return (
     <div>
-      <div id="ViewPort_1" className="ViewPort_1">
+      <div id="ViewPort_1" className="ViewPort_1" onLoad={pegarip}>
         <img href="#ViewPort_1" className="Logo LogoMobile" src={Logo} />
         <header className="menu">
           <img href="#ViewPort_1" className="Logo" src={Logo} />
